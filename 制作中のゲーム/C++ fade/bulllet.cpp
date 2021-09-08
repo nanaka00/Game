@@ -58,6 +58,7 @@ CBullet::~CBullet()
 //======================================================================================================
 HRESULT CBullet::Init(D3DXVECTOR3 pos, D3DXVECTOR3 scale, D3DXVECTOR3 move)
 {
+	// èâä˙âª
 	m_Scale = scale;
 	m_Move = move;
 	m_nLife = BULLET_LIFE;

@@ -68,6 +68,7 @@ HRESULT CBg::Init(D3DXVECTOR3 pos,D3DXVECTOR3 scale)
 //======================================================================================================
 void CBg::Uninit(void)
 {
+	// èIóπèàóù
 	for (int nCnt = 0; nCnt < MAX_BG; nCnt++)
 	{
 		m_apScene2D[nCnt]->Uninit();
